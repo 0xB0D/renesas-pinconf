@@ -741,7 +741,7 @@
 <pinItem allocation="E23" comments="" direction="None" id="M1DQ11" status="0"/>
 <pinItem allocation="AT39" comments="" direction="None" id="DM0" status="0"/>
 <pinItem allocation="F22" comments="" direction="None" id="M1DQ10" status="0"/>
-<pinItem allocation="AW37" comments="" direction="None" id="DM2" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="DM2" status="0"/>
 <pinItem allocation="AV39" comments="" direction="None" id="DM1" status="0"/>
 <pinItem allocation="D27" comments="" direction="None" id="M1DQ19" status="0"/>
 <pinItem allocation="C28" comments="" direction="None" id="M1DQ18" status="0"/>
@@ -794,7 +794,7 @@
 <pinItem allocation="AR39" comments="" direction="None" id="DP0" status="0"/>
 <pinItem allocation="A25" comments="" direction="None" id="M1DQ22" status="0"/>
 <pinItem allocation="D26" comments="" direction="None" id="M1DQ21" status="0"/>
-<pinItem allocation="AW38" comments="" direction="None" id="DP2" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="DP2" status="0"/>
 <pinItem allocation="T6" comments="" direction="None" id="QSPI1_SSL" status="0"/>
 <pinItem allocation="AR11" comments="" direction="None" id="HDMI1_HPD" status="0"/>
 <pinItem allocation="AN17" comments="" direction="None" id="AVS2" status="0"/>
@@ -888,7 +888,7 @@
 <pinItem allocation="AR25" comments="" direction="None" id="PCIE1_CLK_P" status="0"/>
 <pinItem allocation="AP37" comments="" direction="None" id="ID0" status="0"/>
 <pinItem allocation="AR26" comments="" direction="None" id="PCIE1_CLK_M" status="0"/>
-<pinItem allocation="AP33" comments="" direction="None" id="ID2" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="ID2" status="0"/>
 <pinItem allocation="AT37" comments="" direction="None" id="ID1" status="0"/>
 <pinItem allocation="AW26" comments="" direction="None" id="PCIE0_TX_P" status="0"/>
 <pinItem allocation="AW27" comments="" direction="None" id="PCIE0_TX_M" status="0"/>
@@ -994,7 +994,7 @@
 <pinItem allocation="AV5" comments="" direction="None" id="CSI0_DATAN1" status="0"/>
 <pinItem allocation="AW6" comments="" direction="None" id="CSI0_DATAN0" status="0"/>
 <pinItem allocation="AB4" comments="" direction="I" id="GP2_12" status="0"/>
-<pinItem allocation="AR33" comments="" direction="None" id="TXRTUNE2" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="TXRTUNE2" status="0"/>
 <pinItem allocation="AU8" comments="" direction="None" id="LVDS0_CLK_P" status="0"/>
 <pinItem allocation="AA7" comments="" direction="I" id="GP2_11" status="0"/>
 <pinItem allocation="AN27" comments="" direction="None" id="TXRTUNE3" status="0"/>
