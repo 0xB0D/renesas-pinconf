@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<smc>
+<general version="2.0.0.0">
+<configuration active="true" id="com.renesas.smc.toolchain.gnuarm.configuration.release">
+<property id="com.renesas.smc.service.project.buildArtefactType" values="com.renesas.smc.service.project.buildArtefactType.exe"/>
+<toolchain id="com.renesas.smc.toolchain.gnuarm.noneeabi">
+<option id="com.renesas.smc.toolchain.option.rtos" key="com.renesas.smc.toolchain.option.rtos.none">
+<item id="com.renesas.smc.toolchain.option.rtos.freertos" value=""/>
+</option>
+</toolchain>
+</configuration>
+<platform id="R8A77950"/>
+<option id="board" value="Custom User Board"/>
+</general>
+<tool id="System" version="1.0.0.0">
+<option enabled="true" id="optChan_4_chkChat" selection="unchecked"/>
+<option enabled="false" id="optChan_1_cmbFilter" selection="66000"/>
+<option enabled="true" id="optChan_2_chkChat" selection="unchecked"/>
+<option enabled="true" id="opt_cmbSD3" selection="1_8"/>
+<option enabled="false" id="opt_cmbSD1" selection="3_3"/>
+<option enabled="false" id="opt_cmbSD2" selection="3_3"/>
+<option enabled="false" id="opt_cmbSD0" selection="3_3"/>
+<option enabled="false" id="optChan_6_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_6_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_0_chkGPIO1" selection="unchecked"/>
+<option enabled="false" id="optChan_3_chkGPIO0" selection="unchecked"/>
+<option enabled="false" id="optChan_0_chkGPIO0" selection="unchecked"/>
+<option enabled="false" id="optChan_0_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_3_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_0_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_3_chkGPIO1" selection="unchecked"/>
+<option enabled="false" id="optChan_3_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_5_chkGPIO0" selection="unchecked"/>
+<option enabled="true" id="optChan_0_chkChat" selection="unchecked"/>
+<option enabled="false" id="optChan_7_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_2_chkGPIO0" selection="unchecked"/>
+<option enabled="false" id="optChan_2_chkGPIO1" selection="unchecked"/>
+<option enabled="false" id="optChan_2_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_2_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_0_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_4_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_6_chkGPIO0" selection="unchecked"/>
+<option enabled="false" id="optChan_6_chkGPIO1" selection="unchecked"/>
+<option enabled="true" id="optChan_7_chkChat" selection="unchecked"/>
+<option enabled="true" id="opt_chkSD3" selection="checked"/>
+<option enabled="false" id="optChan_7_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_1_chkGPIO3" selection="unchecked"/>
+<option enabled="true" id="opt_chkSD0" selection="unchecked"/>
+<option enabled="false" id="optChan_1_chkGPIO2" selection="unchecked"/>
+<option enabled="true" id="opt_chkSD1" selection="unchecked"/>
+<option enabled="false" id="optChan_1_chkGPIO1" selection="unchecked"/>
+<option enabled="true" id="opt_chkSD2" selection="unchecked"/>
+<option enabled="false" id="optChan_1_chkGPIO0" selection="unchecked"/>
+<option enabled="true" id="optChan_5_chkChat" selection="unchecked"/>
+<option enabled="false" id="optChan_7_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_6_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_7_chkGPIO1" selection="unchecked"/>
+<option enabled="false" id="optChan_7_chkGPIO0" selection="unchecked"/>
+<option enabled="true" id="optChan_3_chkChat" selection="unchecked"/>
+<option enabled="true" id="optChan_1_chkChat" selection="unchecked"/>
+<option enabled="false" id="optChan_3_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_5_chkGPIO1" selection="unchecked"/>
+<option enabled="false" id="optChan_5_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_5_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_5_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_4_chkGPIO3" selection="unchecked"/>
+<option enabled="false" id="optChan_4_chkGPIO2" selection="unchecked"/>
+<option enabled="false" id="optChan_4_chkGPIO1" selection="unchecked"/>
+<option enabled="false" id="optChan_2_cmbFilter" selection="66000"/>
+<option enabled="false" id="optChan_4_chkGPIO0" selection="unchecked"/>
+<option enabled="true" id="optChan_6_chkChat" selection="unchecked"/>
+</tool>
+<tool id="Pins" version="1.0.1.0">
+<extendedItem comment="" direction="None" drvctrl="" id="A3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ38" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="C4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AJ34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="C8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AJ33" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G24" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AH38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AH39" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AH36" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AH37" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AH34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AH35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW24" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW20" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="G38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW30" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="2" id="V34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="V33" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="V36" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="V38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="V37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="V39" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E23" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AF38" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AF39" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AF36" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AF37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AF34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="E31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="L1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="L2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="L4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="E38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU20" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="M2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="M3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="M4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="N1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="N2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="N4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="2" id="T34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="T35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="T39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C24" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AD38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AD39" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AD36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AD37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AD34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AD35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AD33" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="C30" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="P2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C32" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="P3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="P4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="C38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="R1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="R2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="R3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="R38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="R37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="R39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A23" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AB38" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AB36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AB37" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AB34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="T1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AB35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="A31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="T5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="T6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="A35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="A37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="U2" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="U3" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="U4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="U5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="U6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="U7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="V1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="V2" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="V3" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="V4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="V5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="V7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="P36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="P38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="P37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="5" id="W1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="5" id="W4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="5" id="W5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="W6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="Y1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="5" id="Y2" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="5" id="Y3" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="Y4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="Y5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="Y6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="Y7" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="N36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="N38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="N39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AM19" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AM17" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AM37" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AM35" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AM36" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AM34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="L36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="L38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="L39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AK18" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="J18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AK20" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AK39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AK37" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AA1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AA2" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AK35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AA3" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AK36" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AA4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AK33" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AK34" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AA6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AA7" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="J32" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="J38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AB1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="J39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AB2" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AB3" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AB4" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AB5" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AB6" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AC1" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AC2" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AC3" interrupt="1010" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AC4" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AC6" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AC7" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="H12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AD1" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AD2" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AD3" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AD4" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AD5" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AD6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="Y35" interrupt="0000" leveledge="00" outdt="1" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="Y34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="Y37" interrupt="0000" leveledge="00" outdt="1" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="Y39" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="" drvctrl="7" id="Y38" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="H22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AE1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="H29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AE3" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AE4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AE6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AE7" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="H36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="H38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AF1" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="H37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AF2" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AF4" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AF5" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AF6" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AG1" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AG2" interrupt="1010" leveledge="10" outdt="0" posneg="1" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AG4" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AG5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AG6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AH1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AH3" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AH4" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AH5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AH6" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="W35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="W34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="W37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="W36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="W39" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="W38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F23" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F24" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AG39" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AG37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AG38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AG35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AG36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F30" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ1" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ2" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="F38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="F37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ4" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ5" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AJ6" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AJ7" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AV39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AK1" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AK5" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AK6" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL1" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL2" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL3" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL4" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AL7" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AL9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="2" id="U35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="U34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="U37" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="U36" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="2" id="U38" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D23" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D24" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AM5" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AM6" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AM8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AE39" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AE37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AE38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AE35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AE36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AE33" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AE34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="D30" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D32" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="D37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AT39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AT37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B13" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B18" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B19" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B21" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B23" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B24" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AR18" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="B27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR14" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR15" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR12" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR10" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AC39" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AC37" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AC38" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AC35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AC36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AC34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="B30" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B32" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="B37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AR21" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR20" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR34" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AR33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AT1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AT3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AT5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AU9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AP18" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP16" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP17" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AA39" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AA37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AA38" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AA35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AV1" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AA36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AA33" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AV3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="" drvctrl="7" id="AA34" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AV5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AP21" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AP20" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW2" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW3" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW4" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW5" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW6" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW7" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW8" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AW9" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AP36" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AP33" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AN19" interrupt="" leveledge="" outdt="" posneg="" pullupdown="00"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AN17" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN27" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN28" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN25" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN26" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN23" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN21" interrupt="" leveledge="" outdt="" posneg="" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN22" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AN36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AN37" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="7" id="AN35" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN32" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN30" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AN31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="M37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="M36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="M38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="3" id="AL18" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="K11" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="AL20" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="AL39" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL36" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AL37" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL34" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="None" drvctrl="" id="K29" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL35" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="11"/>
+<extendedItem comment="" direction="O" drvctrl="7" id="AL33" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="" id="K31" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K32" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K35" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K37" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K36" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="" id="K38" interrupt="" leveledge="" outdt="" posneg="" pullupdown=""/>
+<extendedItem comment="" direction="None" drvctrl="7" id="W2" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="None" drvctrl="3" id="V6" interrupt="" leveledge="" outdt="" posneg="" pullupdown="01"/>
+<extendedItem comment="" direction="" drvctrl="7" id="AJ3" interrupt="" leveledge="" outdt="" posneg="" pullupdown="10"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AK2" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AK3" interrupt="0000" leveledge="00" outdt="0" posneg="1" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AK4" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<extendedItem comment="" direction="I" drvctrl="7" id="AL6" interrupt="0000" leveledge="00" outdt="0" posneg="0" pullupdown="01"/>
+<voltageItem id="VDDQVA_SD1" voltage="1"/>
+<voltageItem id="VDDQVA_SD0" voltage="1"/>
+<voltageItem id="VDDQVA_SD3" voltage="0"/>
+<voltageItem id="VDDQVA_SD2" voltage="1"/>
+<pinItem allocation="E2" comments="" direction="None" id="M3CA5" status="0"/>
+<pinItem allocation="F3" comments="" direction="None" id="M3CA4" status="0"/>
+<pinItem allocation="AA39" comments="" direction="None" id="TDO2" status="0"/>
+<pinItem allocation="G3" comments="" direction="None" id="M3CA1" status="0"/>
+<pinItem allocation="H3" comments="" direction="None" id="M3CA0" status="0"/>
+<pinItem allocation="AU14" comments="" direction="None" id="HDMI1_TMDSCLKP" status="0"/>
+<pinItem allocation="F4" comments="" direction="None" id="M3CA3" status="0"/>
+<pinItem allocation="G2" comments="" direction="None" id="M3CA2" status="0"/>
+<pinItem allocation="AG6$A" comments="" direction="None" id="MSIOF2_RXD" status="0"/>
+<pinItem allocation="AU13" comments="" direction="None" id="HDMI1_TMDSCLKN" status="0"/>
+<pinItem allocation="AH35$A" comments="" direction="None" id="MSIOF1_TXD" status="0"/>
+<pinItem allocation="D15" comments="" direction="None" id="M2DQ14" status="0"/>
+<pinItem allocation="F16" comments="" direction="None" id="M2DQ13" status="0"/>
+<pinItem allocation="A11" comments="" direction="None" id="M2DQ16" status="0"/>
+<pinItem allocation="E15" comments="" direction="None" id="M2DQ15" status="0"/>
+<pinItem allocation="F18" comments="" direction="None" id="M2DQ10" status="0"/>
+<pinItem allocation="P36" comments="" direction="None" id="M0DM3" status="0"/>
+<pinItem allocation="K36" comments="" direction="None" id="M0DM2" status="0"/>
+<pinItem allocation="D16" comments="" direction="None" id="M2DQ12" status="0"/>
+<pinItem allocation="D38" comments="" direction="None" id="M0DM1" status="0"/>
+<pinItem allocation="B33" comments="" direction="None" id="M0DM0" status="0"/>
+<pinItem allocation="E17" comments="" direction="None" id="M2DQ11" status="0"/>
+<pinItem allocation="H28" comments="" direction="None" id="M1CKB#" status="0"/>
+<pinItem allocation="C12" comments="" direction="None" id="M2DQ18" status="0"/>
+<pinItem allocation="B12" comments="" direction="None" id="M2DQ17" status="0"/>
+<pinItem allocation="D13" comments="" direction="None" id="M2DQ19" status="0"/>
+<pinItem allocation="G26" comments="" direction="None" id="M1CKE0" status="0"/>
+<pinItem allocation="J2" comments="" direction="None" id="M3DQ22" status="0"/>
+<pinItem allocation="J4" comments="" direction="None" id="M3DQ21" status="0"/>
+<pinItem allocation="K3" comments="" direction="None" id="M3DQ20" status="0"/>
+<pinItem allocation="G35" comments="" direction="None" id="M0CKA#" status="0"/>
+<pinItem allocation="N4" comments="" direction="None" id="M3DQ26" status="0"/>
+<pinItem allocation="M3" comments="" direction="None" id="M3DQ25" status="0"/>
+<pinItem allocation="M4" comments="" direction="None" id="M3DQ24" status="0"/>
+<pinItem allocation="AL9" comments="" direction="None" id="CSI1_REXT" status="0"/>
+<pinItem allocation="J1" comments="" direction="None" id="M3DQ23" status="0"/>
+<pinItem allocation="P2" comments="" direction="None" id="M3DQ29" status="0"/>
+<pinItem allocation="P3" comments="" direction="None" id="M3DQ28" status="0"/>
+<pinItem allocation="AE1" comments="" direction="None" id="CLKOUT" status="0"/>
+<pinItem allocation="N2" comments="" direction="None" id="M3DQ27" status="0"/>
+<pinItem allocation="AP39" comments="" direction="None" id="USB_XTAL" status="0"/>
+<pinItem allocation="G27" comments="" direction="None" id="M1CKE1" status="0"/>
+<pinItem allocation="AA37" comments="" direction="O" id="GP3_03" status="0"/>
+<pinItem allocation="AA36" comments="" direction="I" id="GP3_04" status="0"/>
+<pinItem allocation="AA35" comments="" direction="I" id="GP3_05" status="0"/>
+<pinItem allocation="Y39" comments="" direction="O" id="GP3_06" status="0"/>
+<pinItem allocation="Y34" comments="" direction="O" id="GP3_07" status="0"/>
+<pinItem allocation="U2" comments="" direction="None" id="QSPI1_SPCLK" status="0"/>
+<pinItem allocation="W34" comments="" direction="I" id="GP3_08" status="0"/>
+<pinItem allocation="T5" comments="" direction="None" id="QSPI0_SSL" status="0"/>
+<pinItem allocation="AA38" comments="" direction="O" id="GP3_02" status="0"/>
+<pinItem allocation="R2" comments="" direction="None" id="M3DQ31" status="0"/>
+<pinItem allocation="R3" comments="" direction="None" id="M3DQ30" status="0"/>
+<pinItem allocation="AN35" comments="" direction="None" id="USB30_PWEN" status="0"/>
+<pinItem allocation="J8" comments="" direction="None" id="M3ATB0" status="0"/>
+<pinItem allocation="K8" comments="" direction="None" id="M3ATB1" status="0"/>
+<pinItem allocation="AN26" comments="" direction="None" id="PCIE0_RESREF" status="0"/>
+<pinItem allocation="H26" comments="" direction="None" id="M1CKA" status="0"/>
+<pinItem allocation="H29" comments="" direction="None" id="M1CKB" status="0"/>
+<pinItem allocation="AJ2$B" comments="" direction="None" id="MSIOF3_RXD" status="0"/>
+<pinItem allocation="AG5$A" comments="" direction="None" id="MSIOF2_TXD" status="0"/>
+<pinItem allocation="AH3" comments="" direction="I" id="GP1_08" status="0"/>
+<pinItem allocation="AH4" comments="" direction="O" id="GP1_07" status="0"/>
+<pinItem allocation="AH6" comments="" direction="O" id="GP1_05" status="0"/>
+<pinItem allocation="AR14" comments="" direction="None" id="HDMI0_HPD" status="0"/>
+<pinItem allocation="H36" comments="" direction="None" id="M0CKB#" status="0"/>
+<pinItem allocation="W1" comments="" direction="None" id="AVB_TXC" status="0"/>
+<pinItem allocation="V2" comments="" direction="None" id="QSPI0_MOSI_IO0" status="0"/>
+<pinItem allocation="AW24" comments="" direction="None" id="PCIE1_TX_P" status="0"/>
+<pinItem allocation="C34" comments="" direction="None" id="M0DQ3" status="0"/>
+<pinItem allocation="AW25" comments="" direction="None" id="PCIE1_TX_M" status="0"/>
+<pinItem allocation="B35" comments="" direction="None" id="M0DQ2" status="0"/>
+<pinItem allocation="B36" comments="" direction="None" id="M0DQ1" status="0"/>
+<pinItem allocation="A37" comments="" direction="None" id="M0DQ0" status="0"/>
+<pinItem allocation="E31" comments="" direction="None" id="M0DQ7" status="0"/>
+<pinItem allocation="D31" comments="" direction="None" id="M0DQ6" status="0"/>
+<pinItem allocation="D32" comments="" direction="None" id="M0DQ5" status="0"/>
+<pinItem allocation="D33" comments="" direction="None" id="M0DQ4" status="0"/>
+<pinItem allocation="E33" comments="" direction="None" id="M0DQ9" status="0"/>
+<pinItem allocation="D34" comments="" direction="None" id="M0DQ8" status="0"/>
+<pinItem allocation="B28" comments="" direction="None" id="M1DQ17" status="0"/>
+<pinItem allocation="A29" comments="" direction="None" id="M1DQ16" status="0"/>
+<pinItem allocation="G39" comments="" direction="None" id="M0CS0B#" status="0"/>
+<pinItem allocation="AM4" comments="" direction="None" id="SDA_DVFS" status="0"/>
+<pinItem allocation="E25" comments="" direction="None" id="M1DQ15" status="0"/>
+<pinItem allocation="D25" comments="" direction="None" id="M1DQ14" status="0"/>
+<pinItem allocation="F24" comments="" direction="None" id="M1DQ13" status="0"/>
+<pinItem allocation="D24" comments="" direction="None" id="M1DQ12" status="0"/>
+<pinItem allocation="E23" comments="" direction="None" id="M1DQ11" status="0"/>
+<pinItem allocation="AT39" comments="" direction="None" id="DM0" status="0"/>
+<pinItem allocation="F22" comments="" direction="None" id="M1DQ10" status="0"/>
+<pinItem allocation="AW37" comments="" direction="None" id="DM2" status="0"/>
+<pinItem allocation="AV39" comments="" direction="None" id="DM1" status="0"/>
+<pinItem allocation="D27" comments="" direction="None" id="M1DQ19" status="0"/>
+<pinItem allocation="C28" comments="" direction="None" id="M1DQ18" status="0"/>
+<pinItem allocation="D11" comments="" direction="None" id="M2DQ25" status="0"/>
+<pinItem allocation="D12" comments="" direction="None" id="M2DQ24" status="0"/>
+<pinItem allocation="AD2" comments="" direction="O" id="GP1_21" status="0"/>
+<pinItem allocation="D10" comments="" direction="None" id="M2DQ27" status="0"/>
+<pinItem allocation="AE3" comments="" direction="O" id="GP1_20" status="0"/>
+<pinItem allocation="B11" comments="" direction="None" id="M2DQ26" status="0"/>
+<pinItem allocation="D14" comments="" direction="None" id="M2DQ21" status="0"/>
+<pinItem allocation="C14" comments="" direction="None" id="M2DQ20" status="0"/>
+<pinItem allocation="B15" comments="" direction="None" id="M2DQ23" status="0"/>
+<pinItem allocation="A15" comments="" direction="None" id="M2DQ22" status="0"/>
+<pinItem allocation="AD5" comments="" direction="I" id="GP1_27" status="0"/>
+<pinItem allocation="B9" comments="" direction="None" id="M2DQ29" status="0"/>
+<pinItem allocation="C8" comments="" direction="None" id="M2DQ28" status="0"/>
+<pinItem allocation="AD4" comments="" direction="I" id="GP1_25" status="0"/>
+<pinItem allocation="K35" comments="" direction="None" id="M0CKE1" status="0"/>
+<pinItem allocation="J35" comments="" direction="None" id="M0CKE0" status="0"/>
+<pinItem allocation="F38" comments="" direction="None" id="M0CS0A#" status="0"/>
+<pinItem allocation="J19" comments="" direction="None" id="M2ATB0" status="0"/>
+<pinItem allocation="J18" comments="" direction="None" id="M2ATB1" status="0"/>
+<pinItem allocation="A7" comments="" direction="None" id="M2DQ30" status="0"/>
+<pinItem allocation="B8" comments="" direction="None" id="M2DQ31" status="0"/>
+<pinItem allocation="AF1" comments="" direction="O" id="GP1_19" status="0"/>
+<pinItem allocation="AF2" comments="" direction="I" id="GP1_18" status="0"/>
+<pinItem allocation="AF4" comments="" direction="O" id="GP1_17" status="0"/>
+<pinItem allocation="AF5" comments="" direction="I" id="GP1_16" status="0"/>
+<pinItem allocation="AF6" comments="" direction="I" id="GP1_15" status="0"/>
+<pinItem allocation="AG1" comments="" direction="I" id="GP1_14" status="0"/>
+<pinItem allocation="AG2" comments="" direction="I" id="GP1_13" status="0"/>
+<pinItem allocation="AG4" comments="" direction="O" id="GP1_12" status="0"/>
+<pinItem allocation="AD3" comments="" direction="None" id="CANFD1_RX" status="0"/>
+<pinItem allocation="AT5" comments="" direction="None" id="CSI1_DATAN1" status="0"/>
+<pinItem allocation="G16" comments="" direction="None" id="M2RESET#" status="0"/>
+<pinItem allocation="AR7" comments="" direction="None" id="CSI1_DATAN0" status="0"/>
+<pinItem allocation="J22" comments="" direction="None" id="M1ATB1" status="0"/>
+<pinItem allocation="J21" comments="" direction="None" id="M1ATB0" status="0"/>
+<pinItem allocation="B32" comments="" direction="None" id="M1DQ31" status="0"/>
+<pinItem allocation="A33" comments="" direction="None" id="M1DQ30" status="0"/>
+<pinItem allocation="AN23" comments="" direction="None" id="TEST1" status="0"/>
+<pinItem allocation="C32" comments="" direction="None" id="M1DQ28" status="0"/>
+<pinItem allocation="AM22" comments="" direction="None" id="TEST2" status="0"/>
+<pinItem allocation="D30" comments="" direction="None" id="M1DQ27" status="0"/>
+<pinItem allocation="B29" comments="" direction="None" id="M1DQ26" status="0"/>
+<pinItem allocation="D29" comments="" direction="None" id="M1DQ25" status="0"/>
+<pinItem allocation="D28" comments="" direction="None" id="M1DQ24" status="0"/>
+<pinItem allocation="AU39" comments="" direction="None" id="DP1" status="0"/>
+<pinItem allocation="B25" comments="" direction="None" id="M1DQ23" status="0"/>
+<pinItem allocation="AR39" comments="" direction="None" id="DP0" status="0"/>
+<pinItem allocation="A25" comments="" direction="None" id="M1DQ22" status="0"/>
+<pinItem allocation="D26" comments="" direction="None" id="M1DQ21" status="0"/>
+<pinItem allocation="AW38" comments="" direction="None" id="DP2" status="0"/>
+<pinItem allocation="T6" comments="" direction="None" id="QSPI1_SSL" status="0"/>
+<pinItem allocation="AR11" comments="" direction="None" id="HDMI1_HPD" status="0"/>
+<pinItem allocation="AN17" comments="" direction="None" id="AVS2" status="0"/>
+<pinItem allocation="AM17" comments="" direction="None" id="AVS1" status="0"/>
+<pinItem allocation="B31" comments="" direction="None" id="M1DQ29" status="0"/>
+<pinItem allocation="C26" comments="" direction="None" id="M1DQ20" status="0"/>
+<pinItem allocation="AC37" comments="" direction="None" id="MSIOF0_RXD" status="0"/>
+<pinItem allocation="B34" comments="" direction="None" id="M0DQS0#" status="0"/>
+<pinItem allocation="AE7" comments="" direction="None" id="CANFD1_TX" status="0"/>
+<pinItem allocation="C36" comments="" direction="None" id="M0DQ10" status="0"/>
+<pinItem allocation="K29" comments="" direction="None" id="M01BKUP" status="0"/>
+<pinItem allocation="L38" comments="" direction="None" id="M0DQ19" status="0"/>
+<pinItem allocation="AR29" comments="" direction="None" id="PCIE0_CLK_M" status="0"/>
+<pinItem allocation="F9" comments="" direction="None" id="M2CS1B#" status="0"/>
+<pinItem allocation="AR28" comments="" direction="None" id="PCIE0_CLK_P" status="0"/>
+<pinItem allocation="E36" comments="" direction="None" id="M0DQ12" status="0"/>
+<pinItem allocation="AP17" comments="" direction="None" id="HDMI0_SDA" status="0"/>
+<pinItem allocation="B37" comments="" direction="None" id="M0DQ11" status="0"/>
+<pinItem allocation="C39" comments="" direction="None" id="M0DQS1#" status="0"/>
+<pinItem allocation="D37" comments="" direction="None" id="M0DQ14" status="0"/>
+<pinItem allocation="E35" comments="" direction="None" id="M0DQ13" status="0"/>
+<pinItem allocation="AP35" comments="" direction="None" id="EXTALR" status="0"/>
+<pinItem allocation="N39" comments="" direction="None" id="M0DQ16" status="0"/>
+<pinItem allocation="D36" comments="" direction="None" id="M0DQ15" status="0"/>
+<pinItem allocation="L36" comments="" direction="None" id="M0DQ18" status="0"/>
+<pinItem allocation="M38" comments="" direction="None" id="M0DQ17" status="0"/>
+<pinItem allocation="AR17" comments="" direction="None" id="HDMI0_SCL" status="0"/>
+<pinItem allocation="B14" comments="" direction="None" id="M2DM2" status="0"/>
+<pinItem allocation="C10" comments="" direction="None" id="M2DM3" status="0"/>
+<pinItem allocation="C18" comments="" direction="None" id="M2DM0" status="0"/>
+<pinItem allocation="E11" comments="" direction="None" id="M2CS1A#" status="0"/>
+<pinItem allocation="AN39" comments="" direction="None" id="USB_EXTAL" status="0"/>
+<pinItem allocation="F17" comments="" direction="None" id="M2DM1" status="0"/>
+<pinItem allocation="K38" comments="" direction="None" id="M0DQS2#" status="0"/>
+<pinItem allocation="AW4" comments="" direction="None" id="CSI0_CLKN" status="0"/>
+<pinItem allocation="AW5" comments="" direction="None" id="CSI0_CLKP" status="0"/>
+<pinItem allocation="R37" comments="" direction="None" id="M0DQ30" status="0"/>
+<pinItem allocation="R38" comments="" direction="None" id="M0DQ31" status="0"/>
+<pinItem allocation="J32" comments="" direction="None" id="M0ATB0" status="0"/>
+<pinItem allocation="K32" comments="" direction="None" id="M0ATB1" status="0"/>
+<pinItem allocation="T39" comments="" direction="None" id="M0DQS3#" status="0"/>
+<pinItem allocation="AA6" comments="" direction="None" id="AVB_MAGIC" status="0"/>
+<pinItem allocation="J36" comments="" direction="None" id="M0DQ21" status="0"/>
+<pinItem allocation="K37" comments="" direction="None" id="M0DQ20" status="0"/>
+<pinItem allocation="AR15" comments="" direction="None" id="HDMI0_RREF" status="0"/>
+<pinItem allocation="Y7" comments="" direction="None" id="RPC_INT#" status="0"/>
+<pinItem allocation="AH34$A" comments="" direction="None" id="MSIOF1_RXD" status="0"/>
+<pinItem allocation="J39" comments="" direction="None" id="M0DQ23" status="0"/>
+<pinItem allocation="J38" comments="" direction="None" id="M0DQ22" status="0"/>
+<pinItem allocation="M37" comments="" direction="None" id="M0DQ25" status="0"/>
+<pinItem allocation="AB38" comments="" direction="None" id="MSIOF0_TXD" status="0"/>
+<pinItem allocation="M36" comments="" direction="None" id="M0DQ24" status="0"/>
+<pinItem allocation="N38" comments="" direction="None" id="M0DQ27" status="0"/>
+<pinItem allocation="N36" comments="" direction="None" id="M0DQ26" status="0"/>
+<pinItem allocation="P38" comments="" direction="None" id="M0DQ29" status="0"/>
+<pinItem allocation="P37" comments="" direction="None" id="M0DQ28" status="0"/>
+<pinItem allocation="H5" comments="" direction="None" id="M3CKB" status="0"/>
+<pinItem allocation="G6" comments="" direction="None" id="M3CKA" status="0"/>
+<pinItem allocation="B16" comments="" direction="None" id="M2DQ0" status="0"/>
+<pinItem allocation="C16" comments="" direction="None" id="M2DQ1" status="0"/>
+<pinItem allocation="AR8" comments="" direction="None" id="CSI1_DATAP0" status="0"/>
+<pinItem allocation="AR6" comments="" direction="None" id="CSI1_DATAP1" status="0"/>
+<pinItem allocation="AP16" comments="" direction="None" id="HDMI1_SDA" status="0"/>
+<pinItem allocation="AR16" comments="" direction="None" id="HDMI1_SCL" status="0"/>
+<pinItem allocation="AU25" comments="" direction="None" id="PCIE1_RX_P" status="0"/>
+<pinItem allocation="AU26" comments="" direction="None" id="PCIE1_RX_M" status="0"/>
+<pinItem allocation="B19" comments="" direction="None" id="M2DQ6" status="0"/>
+<pinItem allocation="D19" comments="" direction="None" id="M2DQ7" status="0"/>
+<pinItem allocation="E19" comments="" direction="None" id="M2DQ8" status="0"/>
+<pinItem allocation="F19" comments="" direction="None" id="M2DQ9" status="0"/>
+<pinItem allocation="B17" comments="" direction="None" id="M2DQ2" status="0"/>
+<pinItem allocation="G24" comments="" direction="None" id="M1RESET#" status="0"/>
+<pinItem allocation="D17" comments="" direction="None" id="M2DQ3" status="0"/>
+<pinItem allocation="D18" comments="" direction="None" id="M2DQ4" status="0"/>
+<pinItem allocation="A19" comments="" direction="None" id="M2DQ5" status="0"/>
+<pinItem allocation="AM2" comments="" direction="None" id="SDA4" status="0"/>
+<pinItem allocation="AC34$B" comments="" direction="None" id="SDA2" status="0"/>
+<pinItem allocation="AU35" comments="" direction="None" id="USB3S0_RX_P" status="0"/>
+<pinItem allocation="AF38$B" comments="" direction="None" id="SDA1" status="0"/>
+<pinItem allocation="AU1" comments="" direction="None" id="CSI2_DATAN3" status="0"/>
+<pinItem allocation="AF36" comments="" direction="None" id="MLB_REF" status="0"/>
+<pinItem allocation="AU2" comments="" direction="None" id="CSI2_DATAN2" status="0"/>
+<pinItem allocation="AU36" comments="" direction="None" id="USB3S0_RX_M" status="0"/>
+<pinItem allocation="AR3" comments="" direction="None" id="CSI2_DATAN1" status="0"/>
+<pinItem allocation="AN1" comments="" direction="None" id="CSI2_DATAN0" status="0"/>
+<pinItem allocation="AK39" comments="" direction="None" id="EXTAL" status="0"/>
+<pinItem allocation="F31" comments="" direction="None" id="M1CS1B#" status="0"/>
+<pinItem allocation="Y38" comments="" direction="None" id="TMS3" status="0"/>
+<pinItem allocation="AL20" comments="" direction="None" id="TRST#" status="0"/>
+<pinItem allocation="AJ35$A" comments="" direction="None" id="MSIOF1_SCK" status="0"/>
+<pinItem allocation="AR25" comments="" direction="None" id="PCIE1_CLK_P" status="0"/>
+<pinItem allocation="AP37" comments="" direction="None" id="ID0" status="0"/>
+<pinItem allocation="AR26" comments="" direction="None" id="PCIE1_CLK_M" status="0"/>
+<pinItem allocation="AP33" comments="" direction="None" id="ID2" status="0"/>
+<pinItem allocation="AT37" comments="" direction="None" id="ID1" status="0"/>
+<pinItem allocation="AW26" comments="" direction="None" id="PCIE0_TX_P" status="0"/>
+<pinItem allocation="AW27" comments="" direction="None" id="PCIE0_TX_M" status="0"/>
+<pinItem allocation="AK18" comments="" direction="None" id="DU_DOTCLKIN0" status="0"/>
+<pinItem allocation="AM19" comments="" direction="None" id="DU_DOTCLKIN1" status="0"/>
+<pinItem allocation="AL18" comments="" direction="None" id="DU_DOTCLKIN2" status="0"/>
+<pinItem allocation="AN19" comments="" direction="None" id="DU_DOTCLKIN3" status="0"/>
+<pinItem allocation="G5" comments="" direction="None" id="M3CKA#" status="0"/>
+<pinItem allocation="AN29" comments="" direction="None" id="USB2_CH3_VBUS" status="0"/>
+<pinItem allocation="U7" comments="" direction="None" id="VTHREF0" status="0"/>
+<pinItem allocation="AN28" comments="" direction="None" id="USB3S0_RESREF" status="0"/>
+<pinItem allocation="AW35" comments="" direction="None" id="USB3S0_TX_P" status="0"/>
+<pinItem allocation="AW36" comments="" direction="None" id="USB3S0_TX_M" status="0"/>
+<pinItem allocation="E29" comments="" direction="None" id="M1CS1A#" status="0"/>
+<pinItem allocation="AR2" comments="" direction="None" id="CSI2_DATAP1" status="0"/>
+<pinItem allocation="AP1" comments="" direction="None" id="CSI2_DATAP0" status="0"/>
+<pinItem allocation="AV1" comments="" direction="None" id="CSI2_DATAP3" status="0"/>
+<pinItem allocation="AT3" comments="" direction="None" id="CSI2_DATAP2" status="0"/>
+<pinItem allocation="AP18" comments="" direction="I" id="GP7_02" status="0"/>
+<pinItem allocation="AH1$A" comments="" direction="None" id="MSIOF2_SCK" status="0"/>
+<pinItem allocation="AR18" comments="" direction="I" id="GP7_03" status="0"/>
+<pinItem allocation="AM8" comments="" direction="None" id="CSI0_REXT" status="0"/>
+<pinItem allocation="AK20" comments="" direction="None" id="PRESET#" status="0"/>
+<pinItem allocation="AE37" comments="" direction="O" id="GP5_05" status="0"/>
+<pinItem allocation="AE36" comments="" direction="I" id="GP5_06" status="0"/>
+<pinItem allocation="AE38" comments="" direction="I" id="GP5_07" status="0"/>
+<pinItem allocation="AE35" comments="" direction="O" id="GP5_08" status="0"/>
+<pinItem allocation="AF34" comments="" direction="I" id="GP5_09" status="0"/>
+<pinItem allocation="V3" comments="" direction="None" id="QSPI0_MISO_IO1" status="0"/>
+<pinItem allocation="AD36" comments="" direction="I" id="GP5_00" status="0"/>
+<pinItem allocation="AD35" comments="" direction="O" id="GP5_01" status="0"/>
+<pinItem allocation="AD34" comments="" direction="O" id="GP5_02" status="0"/>
+<pinItem allocation="AD33" comments="" direction="O" id="GP5_03" status="0"/>
+<pinItem allocation="V7" comments="" direction="None" id="VTHSENSE0" status="0"/>
+<pinItem allocation="AE39" comments="" direction="I" id="GP5_04" status="0"/>
+<pinItem allocation="K5" comments="" direction="None" id="M3CKE1" status="0"/>
+<pinItem allocation="H15" comments="" direction="None" id="M2CKA#" status="0"/>
+<pinItem allocation="J5" comments="" direction="None" id="M3CKE0" status="0"/>
+<pinItem allocation="Y1" comments="" direction="None" id="AVB_RXC" status="0"/>
+<pinItem allocation="AU28" comments="" direction="None" id="PCIE0_RX_M" status="0"/>
+<pinItem allocation="AU27" comments="" direction="None" id="PCIE0_RX_P" status="0"/>
+<pinItem allocation="AB36" comments="" direction="I" id="GP5_21" status="0"/>
+<pinItem allocation="H4" comments="" direction="None" id="M3CKB#" status="0"/>
+<pinItem allocation="AF37" comments="" direction="O" id="GP5_25" status="0"/>
+<pinItem allocation="F37" comments="" direction="None" id="M0CA4" status="0"/>
+<pinItem allocation="F36" comments="" direction="None" id="M0CA3" status="0"/>
+<pinItem allocation="G38" comments="" direction="None" id="M0CA2" status="0"/>
+<pinItem allocation="G37" comments="" direction="None" id="M0CA1" status="0"/>
+<pinItem allocation="E38" comments="" direction="None" id="M0CA5" status="0"/>
+<pinItem allocation="AW11" comments="" direction="None" id="LVDS0_CH1_N" status="0"/>
+<pinItem allocation="AW10" comments="" direction="None" id="LVDS0_CH1_P" status="0"/>
+<pinItem allocation="AD39" comments="" direction="I" id="GP5_16" status="0"/>
+<pinItem allocation="AU6" comments="" direction="None" id="CSI1_CLKN" status="0"/>
+<pinItem allocation="H37" comments="" direction="None" id="M0CA0" status="0"/>
+<pinItem allocation="AJ1$B" comments="" direction="None" id="MSIOF3_SS1" status="0"/>
+<pinItem allocation="AC36" comments="" direction="O" id="GP5_12" status="0"/>
+<pinItem allocation="AU7" comments="" direction="None" id="CSI1_CLKP" status="0"/>
+<pinItem allocation="AD38" comments="" direction="O" id="GP5_13" status="0"/>
+<pinItem allocation="AD37" comments="" direction="I" id="GP5_14" status="0"/>
+<pinItem allocation="AC35" comments="" direction="O" id="GP5_15" status="0"/>
+<pinItem allocation="B3" comments="" direction="None" id="M3DQ11" status="0"/>
+<pinItem allocation="C4" comments="" direction="None" id="M3DQ10" status="0"/>
+<pinItem allocation="D4" comments="" direction="None" id="M3DQ15" status="0"/>
+<pinItem allocation="G12" comments="" direction="None" id="M2CA3" status="0"/>
+<pinItem allocation="D3" comments="" direction="None" id="M3DQ14" status="0"/>
+<pinItem allocation="F13" comments="" direction="None" id="M2CA4" status="0"/>
+<pinItem allocation="E5" comments="" direction="None" id="M3DQ13" status="0"/>
+<pinItem allocation="F14" comments="" direction="None" id="M2CA5" status="0"/>
+<pinItem allocation="E4" comments="" direction="None" id="M3DQ12" status="0"/>
+<pinItem allocation="L2" comments="" direction="None" id="M3DQ19" status="0"/>
+<pinItem allocation="L4" comments="" direction="None" id="M3DQ18" status="0"/>
+<pinItem allocation="M2" comments="" direction="None" id="M3DQ17" status="0"/>
+<pinItem allocation="N1" comments="" direction="None" id="M3DQ16" status="0"/>
+<pinItem allocation="AU21" comments="" direction="None" id="HDMI0_TMDSDATAP1" status="0"/>
+<pinItem allocation="AW20" comments="" direction="None" id="HDMI0_TMDSDATAP2" status="0"/>
+<pinItem allocation="AW18" comments="" direction="None" id="HDMI0_TMDSDATAP0" status="0"/>
+<pinItem allocation="G11" comments="" direction="None" id="M2CA0" status="0"/>
+<pinItem allocation="F11" comments="" direction="None" id="M2CA1" status="0"/>
+<pinItem allocation="F12" comments="" direction="None" id="M2CA2" status="0"/>
+<pinItem allocation="G13" comments="" direction="None" id="M2CKE1" status="0"/>
+<pinItem allocation="Y37" comments="" direction="O" id="GP3_10" status="0"/>
+<pinItem allocation="G14" comments="" direction="None" id="M2CKE0" status="0"/>
+<pinItem allocation="Y35" comments="" direction="O" id="GP3_11" status="0"/>
+<pinItem allocation="AR20" comments="" direction="None" id="TCK" status="0"/>
+<pinItem allocation="H12" comments="" direction="None" id="M2CKB#" status="0"/>
+<pinItem allocation="AA34" comments="" direction="None" id="TRST2#" status="0"/>
+<pinItem allocation="AN21" comments="" direction="None" id="TDI" status="0"/>
+<pinItem allocation="H25" comments="" direction="None" id="M1CKA#" status="0"/>
+<pinItem allocation="U3" comments="" direction="None" id="QSPI1_MOSI_IO0" status="0"/>
+<pinItem allocation="AP20" comments="" direction="None" id="TDO" status="0"/>
+<pinItem allocation="F2" comments="" direction="None" id="M3CS0A#" status="0"/>
+<pinItem allocation="AU20" comments="" direction="None" id="HDMI0_TMDSDATAN1" status="0"/>
+<pinItem allocation="AW19" comments="" direction="None" id="HDMI0_TMDSDATAN2" status="0"/>
+<pinItem allocation="AW9" comments="" direction="None" id="LVDS0_CH3_N" status="0"/>
+<pinItem allocation="AW17" comments="" direction="None" id="HDMI0_TMDSDATAN0" status="0"/>
+<pinItem allocation="AW8" comments="" direction="None" id="LVDS0_CH3_P" status="0"/>
+<pinItem allocation="AR37" comments="" direction="None" id="VBUS0" status="0"/>
+<pinItem allocation="AC39" comments="" direction="None" id="MSIOF0_SCK" status="0"/>
+<pinItem allocation="G1" comments="" direction="None" id="M3CS0B#" status="0"/>
+<pinItem allocation="AW2" comments="" direction="None" id="CSI0_DATAN3" status="0"/>
+<pinItem allocation="AV3" comments="" direction="None" id="CSI0_DATAN2" status="0"/>
+<pinItem allocation="AL39" comments="" direction="None" id="XTAL" status="0"/>
+<pinItem allocation="AV5" comments="" direction="None" id="CSI0_DATAN1" status="0"/>
+<pinItem allocation="AW6" comments="" direction="None" id="CSI0_DATAN0" status="0"/>
+<pinItem allocation="AB4" comments="" direction="I" id="GP2_12" status="0"/>
+<pinItem allocation="AR33" comments="" direction="None" id="TXRTUNE2" status="0"/>
+<pinItem allocation="AU8" comments="" direction="None" id="LVDS0_CLK_P" status="0"/>
+<pinItem allocation="AA7" comments="" direction="I" id="GP2_11" status="0"/>
+<pinItem allocation="AN27" comments="" direction="None" id="TXRTUNE3" status="0"/>
+<pinItem allocation="AU9" comments="" direction="None" id="LVDS0_CLK_N" status="0"/>
+<pinItem allocation="AR36" comments="" direction="None" id="TXRTUNE0" status="0"/>
+<pinItem allocation="AR34" comments="" direction="None" id="TXRTUNE1" status="0"/>
+<pinItem allocation="C1" comments="" direction="None" id="M3DQS1#" status="0"/>
+<pinItem allocation="AB2" comments="" direction="I" id="GP2_14" status="0"/>
+<pinItem allocation="AB3" comments="" direction="O" id="GP2_13" status="0"/>
+<pinItem allocation="AN22" comments="" direction="None" id="BSMODE" status="0"/>
+<pinItem allocation="H35" comments="" direction="None" id="M0CKB" status="0"/>
+<pinItem allocation="G34" comments="" direction="None" id="M0CKA" status="0"/>
+<pinItem allocation="AC3" comments="" direction="I" id="GP2_01" status="0"/>
+<pinItem allocation="AC2" comments="" direction="I" id="GP2_00" status="0"/>
+<pinItem allocation="B6" comments="" direction="None" id="M3DQS0#" status="0"/>
+<pinItem allocation="AB5" comments="" direction="O" id="GP2_08" status="0"/>
+<pinItem allocation="AB6" comments="" direction="I" id="GP2_07" status="0"/>
+<pinItem allocation="AC1" comments="" direction="I" id="GP2_06" status="0"/>
+<pinItem allocation="AC7" comments="" direction="O" id="GP2_05" status="0"/>
+<pinItem allocation="AC6" comments="" direction="O" id="GP2_04" status="0"/>
+<pinItem allocation="AD1" comments="" direction="O" id="GP2_03" status="0"/>
+<pinItem allocation="AC4" comments="" direction="I" id="GP2_02" status="0"/>
+<pinItem allocation="R1" comments="" direction="None" id="M3DQS3" status="0"/>
+<pinItem allocation="L1" comments="" direction="None" id="M3DQS2" status="0"/>
+<pinItem allocation="C2" comments="" direction="None" id="M3DQS1" status="0"/>
+<pinItem allocation="A5" comments="" direction="None" id="M3DQS0" status="0"/>
+<pinItem allocation="AU5" comments="" direction="None" id="CSI0_DATAP1" status="0"/>
+<pinItem allocation="AW7" comments="" direction="None" id="CSI0_DATAP0" status="0"/>
+<pinItem allocation="AW3" comments="" direction="None" id="CSI0_DATAP3" status="0"/>
+<pinItem allocation="AU4" comments="" direction="None" id="CSI0_DATAP2" status="0"/>
+<pinItem allocation="AH36$A" comments="" direction="None" id="MSIOF1_SS2" status="0"/>
+<pinItem allocation="AH37$A" comments="" direction="None" id="MSIOF1_SS1" status="0"/>
+<pinItem allocation="T1" comments="" direction="None" id="M3DQS3#" status="0"/>
+<pinItem allocation="AJ38$A" comments="" direction="None" id="MSIOF1_SYNC" status="0"/>
+<pinItem allocation="U4" comments="" direction="None" id="QSPI1_MISO_IO1" status="0"/>
+<pinItem allocation="AP36" comments="" direction="None" id="FSCLKST#" status="0"/>
+<pinItem allocation="AA33" comments="" direction="None" id="SD1_CD" status="0"/>
+<pinItem allocation="K2" comments="" direction="None" id="M3DQS2#" status="0"/>
+<pinItem allocation="F23" comments="" direction="None" id="M1DM1" status="0"/>
+<pinItem allocation="B26" comments="" direction="None" id="M1DM2" status="0"/>
+<pinItem allocation="C30" comments="" direction="None" id="M1DM3" status="0"/>
+<pinItem allocation="V33" comments="" direction="None" id="SD3_DS" status="0"/>
+<pinItem allocation="C22" comments="" direction="None" id="M1DM0" status="0"/>
+<pinItem allocation="AB1" comments="" direction="None" id="AVB_TXCREFCLK" status="0"/>
+<pinItem allocation="AU18" comments="" direction="None" id="HDMI0_TMDSCLKN" status="0"/>
+<pinItem allocation="AU19" comments="" direction="None" id="HDMI0_TMDSCLKP" status="0"/>
+<pinItem allocation="A17" comments="" direction="None" id="M2DQS0" status="0"/>
+<pinItem allocation="AA3" comments="" direction="None" id="AVB_MDIO" status="0"/>
+<pinItem allocation="B13" comments="" direction="None" id="M2DQS2" status="0"/>
+<pinItem allocation="G18" comments="" direction="None" id="M2DQS1" status="0"/>
+<pinItem allocation="A9" comments="" direction="None" id="M2DQS3" status="0"/>
+<pinItem allocation="AH5$A" comments="" direction="None" id="MSIOF2_SS1" status="0"/>
+<pinItem allocation="Y2" comments="" direction="None" id="AVB_TX_CTL" status="0"/>
+<pinItem allocation="W6" comments="" direction="None" id="RPC_WP#" status="0"/>
+<pinItem allocation="AP21" comments="" direction="None" id="TMS" status="0"/>
+<pinItem allocation="B18" comments="" direction="None" id="M2DQS0#" status="0"/>
+<pinItem allocation="A21" comments="" direction="None" id="M1DQ5" status="0"/>
+<pinItem allocation="AW14" comments="" direction="None" id="HDMI1_TMDSDATAP0" status="0"/>
+<pinItem allocation="B21" comments="" direction="None" id="M1DQ6" status="0"/>
+<pinItem allocation="AU16" comments="" direction="None" id="HDMI1_TMDSDATAP1" status="0"/>
+<pinItem allocation="D21" comments="" direction="None" id="M1DQ7" status="0"/>
+<pinItem allocation="AW16" comments="" direction="None" id="HDMI1_TMDSDATAP2" status="0"/>
+<pinItem allocation="E21" comments="" direction="None" id="M1DQ8" status="0"/>
+<pinItem allocation="C24" comments="" direction="None" id="M1DQ1" status="0"/>
+<pinItem allocation="F10" comments="" direction="None" id="M2CS0B#" status="0"/>
+<pinItem allocation="B23" comments="" direction="None" id="M1DQ2" status="0"/>
+<pinItem allocation="D23" comments="" direction="None" id="M1DQ3" status="0"/>
+<pinItem allocation="D22" comments="" direction="None" id="M1DQ4" status="0"/>
+<pinItem allocation="F21" comments="" direction="None" id="M1DQ9" status="0"/>
+<pinItem allocation="A31" comments="" direction="None" id="M1DQS3" status="0"/>
+<pinItem allocation="B27" comments="" direction="None" id="M1DQS2" status="0"/>
+<pinItem allocation="E13" comments="" direction="None" id="M2CS0A#" status="0"/>
+<pinItem allocation="G22" comments="" direction="None" id="M1DQS1" status="0"/>
+<pinItem allocation="A23" comments="" direction="None" id="M1DQS0" status="0"/>
+<pinItem allocation="AN25" comments="" direction="None" id="PCIE1_RESREF" status="0"/>
+<pinItem allocation="AK6" comments="" direction="O" id="GP0_08" status="0"/>
+<pinItem allocation="AK5" comments="" direction="O" id="GP0_09" status="0"/>
+<pinItem allocation="AM37" comments="" direction="None" id="USB30_OVC" status="0"/>
+<pinItem allocation="AR21" comments="" direction="None" id="ASEBRK" status="0"/>
+<pinItem allocation="AJ6" comments="" direction="O" id="GP0_15" status="0"/>
+<pinItem allocation="AK1" comments="" direction="I" id="GP0_13" status="0"/>
+<pinItem allocation="AJ7" comments="" direction="I" id="GP0_14" status="0"/>
+<pinItem allocation="H14" comments="" direction="None" id="M2CKA" status="0"/>
+<pinItem allocation="H11" comments="" direction="None" id="M2CKB" status="0"/>
+<pinItem allocation="B24" comments="" direction="None" id="M1DQ0" status="0"/>
+<pinItem allocation="AL2" comments="" direction="I" id="GP0_06" status="0"/>
+<pinItem allocation="AL1" comments="" direction="I" id="GP0_07" status="0"/>
+<pinItem allocation="AL4" comments="" direction="I" id="GP0_04" status="0"/>
+<pinItem allocation="AL3" comments="" direction="I" id="GP0_05" status="0"/>
+<pinItem allocation="AL7" comments="" direction="O" id="GP0_02" status="0"/>
+<pinItem allocation="AM6" comments="" direction="I" id="GP0_00" status="0"/>
+<pinItem allocation="AM5" comments="" direction="O" id="GP0_01" status="0"/>
+<pinItem allocation="K11" comments="" direction="None" id="M23BKUP" status="0"/>
+<pinItem allocation="F5" comments="" direction="None" id="M3RESET#" status="0"/>
+<pinItem allocation="A35" comments="" direction="None" id="M0DQS0" status="0"/>
+<pinItem allocation="L39" comments="" direction="None" id="M0DQS2" status="0"/>
+<pinItem allocation="B10" comments="" direction="None" id="M2DQS3#" status="0"/>
+<pinItem allocation="C38" comments="" direction="None" id="M0DQS1" status="0"/>
+<pinItem allocation="AE4$A" comments="" direction="None" id="CANFD0_RX" status="0"/>
+<pinItem allocation="A3" comments="" direction="None" id="M3DQ0" status="0"/>
+<pinItem allocation="B5" comments="" direction="None" id="M3DQ2" status="0"/>
+<pinItem allocation="B4" comments="" direction="None" id="M3DQ1" status="0"/>
+<pinItem allocation="R39" comments="" direction="None" id="M0DQS3" status="0"/>
+<pinItem allocation="A13" comments="" direction="None" id="M2DQS2#" status="0"/>
+<pinItem allocation="AB37" comments="" direction="None" id="MSIOF0_SS1" status="0"/>
+<pinItem allocation="K31" comments="" direction="None" id="MPLLTEST" status="0"/>
+<pinItem allocation="F35" comments="" direction="None" id="M0RESET#" status="0"/>
+<pinItem allocation="P4" comments="" direction="None" id="M3DM3" status="0"/>
+<pinItem allocation="B7" comments="" direction="None" id="M3DM0" status="0"/>
+<pinItem allocation="K4" comments="" direction="None" id="M3DM2" status="0"/>
+<pinItem allocation="AJ5$B" comments="" direction="None" id="MSIOF3_SYNC" status="0"/>
+<pinItem allocation="D2" comments="" direction="None" id="M3DM1" status="0"/>
+<pinItem allocation="H18" comments="" direction="None" id="M2DQS1#" status="0"/>
+<pinItem allocation="AA2" comments="" direction="None" id="AVB_MDC" status="0"/>
+<pinItem allocation="AB34" comments="" direction="None" id="SD1_WP" status="0"/>
+<pinItem allocation="AM3" comments="" direction="None" id="SCL_DVFS" status="0"/>
+<pinItem allocation="E27" comments="" direction="None" id="M1CS0A#" status="0"/>
+<pinItem allocation="B22" comments="" direction="None" id="M1DQS0#" status="0"/>
+<pinItem allocation="W4" comments="" direction="None" id="AVB_TD1" status="0"/>
+<pinItem allocation="AE33$A" comments="" direction="None" id="TX2" status="0"/>
+<pinItem allocation="V36" comments="" direction="None" id="SD3_DAT5" status="0"/>
+<pinItem allocation="T35" comments="" direction="None" id="SD3_DAT4" status="0"/>
+<pinItem allocation="U35" comments="" direction="None" id="SD3_DAT3" status="0"/>
+<pinItem allocation="U36" comments="" direction="None" id="SD3_DAT2" status="0"/>
+<pinItem allocation="W5" comments="" direction="None" id="AVB_TD2" status="0"/>
+<pinItem allocation="H22" comments="" direction="None" id="M1DQS1#" status="0"/>
+<pinItem allocation="Y3" comments="" direction="None" id="AVB_TD3" status="0"/>
+<pinItem allocation="T34" comments="" direction="None" id="SD3_DAT7" status="0"/>
+<pinItem allocation="V34" comments="" direction="None" id="SD3_DAT6" status="0"/>
+<pinItem allocation="U37" comments="" direction="None" id="SD3_DAT1" status="0"/>
+<pinItem allocation="U38" comments="" direction="None" id="SD3_DAT0" status="0"/>
+<pinItem allocation="AA1" comments="" direction="None" id="AVB_RX_CTL" status="0"/>
+<pinItem allocation="D6" comments="" direction="None" id="M3DQ8" status="0"/>
+<pinItem allocation="E9" comments="" direction="None" id="M3DQ7" status="0"/>
+<pinItem allocation="E7" comments="" direction="None" id="M3DQ9" status="0"/>
+<pinItem allocation="D7" comments="" direction="None" id="M3DQ4" status="0"/>
+<pinItem allocation="C6" comments="" direction="None" id="M3DQ3" status="0"/>
+<pinItem allocation="D9" comments="" direction="None" id="M3DQ6" status="0"/>
+<pinItem allocation="D8" comments="" direction="None" id="M3DQ5" status="0"/>
+<pinItem allocation="AM21" comments="" direction="None" id="NMI" status="0"/>
+<pinItem allocation="F30" comments="" direction="None" id="M1CS0B#" status="0"/>
+<pinItem allocation="V1" comments="" direction="None" id="QSPI0_SPCLK" status="0"/>
+<pinItem allocation="V5" comments="" direction="None" id="QSPI0_IO3" status="0"/>
+<pinItem allocation="V4" comments="" direction="None" id="QSPI0_IO2" status="0"/>
+<pinItem allocation="AL36" comments="" direction="I" id="GP6_18" status="0"/>
+<pinItem allocation="AL37" comments="" direction="O" id="GP6_17" status="0"/>
+<pinItem allocation="AW33" comments="" direction="None" id="USB3HS0_DM" status="0"/>
+<pinItem allocation="AK33" comments="" direction="O" id="GP6_19" status="0"/>
+<pinItem allocation="AW34" comments="" direction="None" id="USB3HS0_DP" status="0"/>
+<pinItem allocation="AJ34" comments="" direction="I" id="GP6_12" status="0"/>
+<pinItem allocation="AC38" comments="" direction="None" id="MSIOF0_SYNC" status="0"/>
+<pinItem allocation="AK36" comments="" direction="I" id="GP6_14" status="0"/>
+<pinItem allocation="AJ33" comments="" direction="O" id="GP6_13" status="0"/>
+<pinItem allocation="AK35" comments="" direction="O" id="GP6_16" status="0"/>
+<pinItem allocation="AK34" comments="" direction="O" id="GP6_15" status="0"/>
+<pinItem allocation="AA4" comments="" direction="None" id="AVB_RD0" status="0"/>
+<pinItem allocation="Y4" comments="" direction="None" id="AVB_RD1" status="0"/>
+<pinItem allocation="Y5" comments="" direction="None" id="AVB_RD2" status="0"/>
+<pinItem allocation="AK37" comments="" direction="None" id="SSI_SCK5" status="0"/>
+<pinItem allocation="AT1" comments="" direction="None" id="CSI2_CLKP" status="0"/>
+<pinItem allocation="Y6" comments="" direction="None" id="AVB_RD3" status="0"/>
+<pinItem allocation="AR1" comments="" direction="None" id="CSI2_CLKN" status="0"/>
+<pinItem allocation="AE34$A" comments="" direction="None" id="RX2" status="0"/>
+<pinItem allocation="AG38" comments="" direction="O" id="GP6_01" status="0"/>
+<pinItem allocation="AG35" comments="" direction="I" id="GP6_00" status="0"/>
+<pinItem allocation="AG36" comments="" direction="I" id="GP6_03" status="0"/>
+<pinItem allocation="AG37" comments="" direction="O" id="GP6_02" status="0"/>
+<pinItem allocation="AH38" comments="" direction="O" id="GP6_04" status="0"/>
+<pinItem allocation="AN37" comments="" direction="O" id="GP6_30" status="0"/>
+<pinItem allocation="AW13" comments="" direction="None" id="HDMI1_TMDSDATAN0" status="0"/>
+<pinItem allocation="AU15" comments="" direction="None" id="HDMI1_TMDSDATAN1" status="0"/>
+<pinItem allocation="AW15" comments="" direction="None" id="HDMI1_TMDSDATAN2" status="0"/>
+<pinItem allocation="AN36" comments="" direction="O" id="GP6_31" status="0"/>
+<pinItem allocation="V39" comments="" direction="None" id="SD3_CLK" status="0"/>
+<pinItem allocation="U34" comments="" direction="None" id="SD3_CMD" status="0"/>
+<pinItem allocation="AL34" comments="" direction="I" id="GP6_21" status="0"/>
+<pinItem allocation="AL35" comments="" direction="I" id="GP6_20" status="0"/>
+<pinItem allocation="AH39" comments="" direction="I" id="GP6_23" status="0"/>
+<pinItem allocation="AG39" comments="" direction="I" id="GP6_22" status="0"/>
+<pinItem allocation="AM34" comments="" direction="I" id="GP6_25" status="0"/>
+<pinItem allocation="AM36" comments="" direction="I" id="GP6_24" status="0"/>
+<pinItem allocation="AL33" comments="" direction="O" id="GP6_27" status="0"/>
+<pinItem allocation="AM35" comments="" direction="I" id="GP6_26" status="0"/>
+<pinItem allocation="H38" comments="" direction="None" id="M0CS1B#" status="0"/>
+<pinItem allocation="U5" comments="" direction="None" id="QSPI1_IO2" status="0"/>
+<pinItem allocation="AJ4$B" comments="" direction="None" id="MSIOF3_TXD" status="0"/>
+<pinItem allocation="U6" comments="" direction="None" id="QSPI1_IO3" status="0"/>
+<pinItem allocation="E39" comments="" direction="None" id="M0CS1A#" status="0"/>
+<pinItem allocation="AN32" comments="" direction="None" id="USB3HS0_ID" status="0"/>
+<pinItem allocation="AR10" comments="" direction="None" id="LVDS0_CH0_N" status="0"/>
+<pinItem allocation="AE6$A" comments="" direction="None" id="CAN0_TX" status="0"/>
+<pinItem allocation="AR9" comments="" direction="None" id="LVDS0_CH0_P" status="0"/>
+<pinItem allocation="AN7" comments="" direction="None" id="CSI2_REXT" status="0"/>
+<pinItem allocation="AW29" comments="" direction="None" id="USB2_CH3_DM" status="0"/>
+<pinItem allocation="AW30" comments="" direction="None" id="USB2_CH3_DP" status="0"/>
+<pinItem allocation="AB35$B" comments="" direction="None" id="SCL2" status="0"/>
+<pinItem allocation="AF39$B" comments="" direction="None" id="SCL1" status="0"/>
+<pinItem allocation="AM1" comments="" direction="None" id="SCL4" status="0"/>
+<pinItem allocation="E1" comments="" direction="None" id="M3CS1A#" status="0"/>
+<pinItem allocation="AD6" comments="" direction="None" id="PRESETOUT#" status="0"/>
+<pinItem allocation="AU11" comments="" direction="None" id="LVDS0_CH2_N" status="0"/>
+<pinItem allocation="AN30" comments="" direction="None" id="USB2_CH3_ID" status="0"/>
+<pinItem allocation="AU10" comments="" direction="None" id="LVDS0_CH2_P" status="0"/>
+<pinItem allocation="H2" comments="" direction="None" id="M3CS1B#" status="0"/>
+<pinItem allocation="F28" comments="" direction="None" id="M1CA2" status="0"/>
+<pinItem allocation="G28" comments="" direction="None" id="M1CA3" status="0"/>
+<pinItem allocation="F27" comments="" direction="None" id="M1CA4" status="0"/>
+<pinItem allocation="F26" comments="" direction="None" id="M1CA5" status="0"/>
+<pinItem allocation="AU33" comments="" direction="None" id="USB3S0_CLK_M" status="0"/>
+<pinItem allocation="A27" comments="" direction="None" id="M1DQS2#" status="0"/>
+<pinItem allocation="G29" comments="" direction="None" id="M1CA0" status="0"/>
+<pinItem allocation="F29" comments="" direction="None" id="M1CA1" status="0"/>
+<pinItem allocation="AN31" comments="" direction="None" id="USB3HS0_VBUS" status="0"/>
+<pinItem allocation="W37" comments="" direction="I" id="GP4_04" status="0"/>
+<pinItem allocation="AU34" comments="" direction="None" id="USB3S0_CLK_P" status="0"/>
+<pinItem allocation="W36" comments="" direction="I" id="GP4_05" status="0"/>
+<pinItem allocation="V38" comments="" direction="I" id="GP4_06" status="0"/>
+<pinItem allocation="AR12" comments="" direction="None" id="HDMI1_RREF" status="0"/>
+<pinItem allocation="B30" comments="" direction="None" id="M1DQS3#" status="0"/>
+<pinItem allocation="W39" comments="" direction="O" id="GP4_00" status="0"/>
+<pinItem allocation="W35" comments="" direction="O" id="GP4_01" status="0"/>
+<pinItem allocation="V37" comments="" direction="O" id="GP4_02" status="0"/>
+<pinItem allocation="W38" comments="" direction="I" id="GP4_03" status="0"/>
+<pinItem allocation="W2" comments="" direction="None" id="AVB_TD0" status="0"/>
+<pinItem allocation="V6" comments="" direction="None" id="RPC_RESET#" status="0"/>
+<pinItem allocation="AJ3$B" comments="" direction="None" id="MSIOF3_SCK" status="0"/>
+<pinItem allocation="AK2" comments="" direction="I" id="GP0_12" status="0"/>
+<pinItem allocation="AK3" comments="" direction="I" id="GP0_11" status="0"/>
+<pinItem allocation="AK4" comments="" direction="I" id="GP0_10" status="0"/>
+<pinItem allocation="AL6" comments="" direction="I" id="GP0_03" status="0"/>
+</tool>
+</smc>
