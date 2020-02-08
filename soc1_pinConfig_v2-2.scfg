@@ -923,7 +923,7 @@
 <pinItem allocation="AD34" comments="" direction="O" id="GP5_02" status="0"/>
 <pinItem allocation="AD33" comments="" direction="O" id="GP5_03" status="0"/>
 <pinItem allocation="V7" comments="" direction="None" id="VTHSENSE0" status="0"/>
-<pinItem allocation="AE39" comments="" direction="I" id="GP5_04" status="0"/>
+<pinItem allocation="AE39" comments="" direction="None" id="GP5_04" status="0"/>
 <pinItem allocation="K5" comments="" direction="None" id="M3CKE1" status="0"/>
 <pinItem allocation="H15" comments="" direction="None" id="M2CKA#" status="0"/>
 <pinItem allocation="J5" comments="" direction="None" id="M3CKE0" status="0"/>
@@ -1026,12 +1026,12 @@
 <pinItem allocation="AW3" comments="" direction="None" id="CSI0_DATAP3" status="0"/>
 <pinItem allocation="AU4" comments="" direction="None" id="CSI0_DATAP2" status="0"/>
 <pinItem allocation="AH36$A" comments="" direction="None" id="MSIOF1_SS2" status="0"/>
-<pinItem allocation="AH37$A" comments="" direction="None" id="MSIOF1_SS1" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="MSIOF1_SS1" status="0"/>
 <pinItem allocation="T1" comments="" direction="None" id="M3DQS3#" status="0"/>
 <pinItem allocation="AJ38$A" comments="" direction="None" id="MSIOF1_SYNC" status="0"/>
 <pinItem allocation="U4" comments="" direction="None" id="QSPI1_MISO_IO1" status="0"/>
 <pinItem allocation="AP36" comments="" direction="None" id="FSCLKST#" status="0"/>
-<pinItem allocation="AA33" comments="" direction="None" id="SD1_CD" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="SD1_CD" status="0"/>
 <pinItem allocation="K2" comments="" direction="None" id="M3DQS2#" status="0"/>
 <pinItem allocation="F23" comments="" direction="None" id="M1DM1" status="0"/>
 <pinItem allocation="B26" comments="" direction="None" id="M1DM2" status="0"/>
@@ -1109,7 +1109,7 @@
 <pinItem allocation="D2" comments="" direction="None" id="M3DM1" status="0"/>
 <pinItem allocation="H18" comments="" direction="None" id="M2DQS1#" status="0"/>
 <pinItem allocation="AA2" comments="" direction="None" id="AVB_MDC" status="0"/>
-<pinItem allocation="AB34" comments="" direction="None" id="SD1_WP" status="0"/>
+<pinItem allocation="" comments="" direction="None" id="SD1_WP" status="0"/>
 <pinItem allocation="AM3" comments="" direction="None" id="SCL_DVFS" status="0"/>
 <pinItem allocation="E27" comments="" direction="None" id="M1CS0A#" status="0"/>
 <pinItem allocation="B22" comments="" direction="None" id="M1DQS0#" status="0"/>
@@ -1225,5 +1225,7 @@
 <pinItem allocation="AK3" comments="" direction="I" id="GP0_11" status="0"/>
 <pinItem allocation="AK4" comments="" direction="I" id="GP0_10" status="0"/>
 <pinItem allocation="AL6" comments="" direction="I" id="GP0_03" status="0"/>
+<pinItem allocation="AB34" comments="" direction="None" id="SDA0" status="0"/>
+<pinItem allocation="AA33" comments="" direction="None" id="SCL0" status="0"/>
 </tool>
 </smc>
